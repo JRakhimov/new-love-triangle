@@ -4,6 +4,7 @@
   "description": "Love triangle",
   "main": "src/index.js",
   "scripts": {
+    "dev": "nodemon -x npm test src/index.js",
     "test": "mocha test.js"
   },
   "repository": {
